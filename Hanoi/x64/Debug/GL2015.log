@@ -1,0 +1,36 @@
+﻿Build started 17/04/2016 23:30:32.
+     1>Project "G:\VS Projects\GL2015\GL2015\GL2015.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (GL2015.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt display.cpp main.cpp mesh.cpp obj_loader.cpp shader.cpp skybox.cpp texture.cpp
+         texture.cpp
+         skybox.cpp
+     1>g:\vs projects\gl2015\gl2015\skybox.h(11): warning C4114: same type qualifier used more than once
+     1>g:\vs projects\gl2015\gl2015\skybox.cpp(5): warning C4114: same type qualifier used more than once
+         shader.cpp
+     1>g:\vs projects\gl2015\gl2015\shader.cpp(68): warning C4267: '=': conversion from 'size_t' to 'GLint', possible loss of data
+         mesh.cpp
+     1>g:\vs projects\gl2015\gl2015\mesh.cpp(56): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+         main.cpp
+     1>g:\vs projects\gl2015\gl2015\skybox.h(11): warning C4114: same type qualifier used more than once
+     1>g:\vs projects\gl2015\gl2015\main.cpp(110): warning C4305: 'argument': truncation from 'double' to 'float'
+         display.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         obj_loader.cpp
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\VS Projects\GL2015\x64\Debug\40103628 - Hanoi.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib\x64 glew32.lib glew32s.lib SDL2.lib SDL2main.lib SDL2test.lib OpenGL32.lib winmm.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"G:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"G:\VS Projects\GL2015\x64\Debug\40103628 - Hanoi.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\VS Projects\GL2015\x64\Debug\40103628 - Hanoi.lib" /MACHINE:X64 x64\Debug\GL2015.res
+         x64\Debug\display.obj
+         x64\Debug\main.obj
+         x64\Debug\mesh.obj
+         x64\Debug\obj_loader.obj
+         x64\Debug\shader.obj
+         x64\Debug\skybox.obj
+         x64\Debug\stb_image.obj
+         x64\Debug\texture.obj
+         GL2015.vcxproj -> G:\VS Projects\GL2015\x64\Debug\40103628 - Hanoi.exe
+     1>Done Building Project "G:\VS Projects\GL2015\GL2015\GL2015.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.59
